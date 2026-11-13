@@ -8,11 +8,11 @@ app.use(express.json());
 // ==========================================
 // 1. CẤU HÌNH CỦA BẠN (SỬA CÁC DÒNG NÀY)
 // ==========================================
-const SERVER_HOST = 'kingmc.vn';      // IP server game
+const SERVER_HOST = 'play.kingmc.vn';      // IP server game
 const SERVER_PORT = 25565;            // Port server game
-const BOT_USERNAME = 'BotRutNap';     // Tên acc Minecraft của bot
-const BOT_VERSION = '1.20.1';         // Phiên bản server (thử 1.20.1 hoặc false)
-const PASSWORD = 'matkhau_cua_acc';   // Mật khẩu acc Minecraft
+const BOT_USERNAME = 'pumtrummod';     // Tên acc Minecraft của bot
+const BOT_VERSION = '1.21.1';         // Phiên bản server (thử 1.20.1 hoặc false)
+const PASSWORD = 'manhne11';   // Mật khẩu acc Minecraft
 
 // ĐỊA CHỈ API CỦA BOT DISCORD (QUAN TRỌNG)
 // Bạn phải thay IP_HOST_CLOUDCODE bằng IP thật của host đang chạy botmoi.py
